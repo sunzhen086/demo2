@@ -1,0 +1,19 @@
+//全局CSS样式
+
+@import "styles/reset.css";
+@import "static/css/animate.css";
+@import "static/css/font-awesome.min.css";
+@import "styles/global.scss";
+
+//cma自定义各组件样式
+@import "styles/cmastyles/cma-select.scss";
+@import "styles/cmastyles/cma-table.scss";
+@import "styles/cmastyles/cma-extend-table.scss";
+@import "styles/cmastyles/cma-dialog.scss";
+@import "styles/cmastyles/cma-datepick.scss";
+@import "styles/cmastyles/cma-button.scss";
+@import "styles/cmastyles/cma-popover.scss";
+@import "styles/cmastyles/cma-input.scss";
+@import "styles/cmastyles/cma-report-table.scss";
+@import "styles/cmastyles/cma-tooltip.scss";
+@import "styles/cmastyles/cma-loading.scss";

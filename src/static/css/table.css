@@ -1,0 +1,41 @@
+.kytable{
+	border-collapse: collapse;
+}
+
+.kytable th {
+	font-size:14px;
+	color:#49D8FC;
+	font-weight: bold;
+	padding:10px;
+}
+
+.kytable td {
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	padding:10px;
+}
+
+.kytable tbody tr:nth-child(odd){
+	background-color:#0B3376;
+}
+
+.kytable .rate{
+	border:1px solid #cccccc;
+	padding:2px;
+	font-size:14px;
+	margin-left:6px;
+	border-radius: 4px;
+}
+
+.kytable .rate.good{
+	color:#1AFA29;
+	border-color:#1AFA29;
+}
+
+.kytable .rate.bad{
+	color:#FF1400;
+	border-color:#FF1400;
+}
+
+

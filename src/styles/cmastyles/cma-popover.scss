@@ -1,0 +1,59 @@
+.cma.el-popover {
+    //background: rgba(11, 88, 168, 1);
+    color: white;
+    border: 0px solid rgba(10,88,166, 1);
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    
+    background: linear-gradient(to top, #12224e, #0e2e6a);
+   
+    padding-top: 0.16rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-bottom: 0.24rem;
+    font-size: 0.14rem;
+    line-height: 0.24rem;
+    
+    .popper__arrow {
+        background: rgba(11, 88, 168, 1);
+      
+        border: 2px solid rgba(11, 88, 168, 1);
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        
+        ::after {
+            background: #0e2e6a;
+        }
+    }
+    
+    &[x-placement^=left]{
+        .popper__arrow::after{
+            right: -0.02rem;
+            border-left-color: #0e2e6a;
+        }
+    }
+    
+    &[x-placement^=right] {
+        .popper__arrow::after{
+            left: -0.02rem;
+            border-right-color: #0e2e6a;
+        }
+    }
+    
+    
+    &[x-placement^=top] {
+        .popper__arrow::after{
+            border-top-color: #0e2e6a;
+        }
+    }
+    &[x-placement^=bottom] {
+        .popper__arrow::after{
+            border-bottom-color: #0e2e6a;
+        }
+    }
+ 
+
+}
+
+
+    

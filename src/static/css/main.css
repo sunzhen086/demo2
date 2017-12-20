@@ -1,0 +1,162 @@
+.ky ul,li{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+html{
+	height:100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.main-body{
+	width:100%;
+	height: 720px;
+	font-family: 'Microsoft Yahei';
+	overflow:hidden;
+}
+
+.wrap {
+	width: 100%;
+	float: left
+}
+.background-style {
+	width: 100%;
+	float: left;
+	border-top: solid 3px #23569a;
+	background-image: linear-gradient(to top, rgba(14, 46, 108, 0), #0e2e6c)
+	/*background-image: linear-gradient(to bottom, rgba(14, 46, 107, 0.5) 0%, rgba(13, 36, 82, 0.3) 40%, rgba(12, 28, 63, 0.2) 98%, rgba(0, 0, 0, 0) 100%);*/
+}
+.box-title {
+	width: 100%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	padding-left: 30px;
+}
+
+.box-title:before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 15px;
+	background: #32a4df;
+	top: 11px;
+	left: 13px;
+}
+
+.box-info {
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+
+.box-info b {
+	font-size: 28px;
+	color: #0adef2;
+	padding-left: 20px;
+	font-weight: bold
+}
+
+.row1{
+	width: 420px; float: left;
+}
+
+.row2{
+	width: 720px; float: left;margin-left: 10px;
+}
+
+.row3{
+	width: 280px; float: left;margin-left: 10px;
+}
+
+.small-box{
+	height: 230px;
+}
+
+.w-50p{
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.fs-24{
+	font-size: 24px;
+}
+
+
+.fs-22{
+	font-size: 22px;
+}
+
+
+.fs-20{
+	font-size: 20px;
+}
+
+
+.fs-24{
+	font-size: 24px;
+}
+.mt-17{
+	margin-top: 17px;
+}
+.mt-23{
+	margin-top: 23px;
+}
+
+.ml-15{
+	margin-left: 15px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mt-5{
+	margin-top: 5px;
+}
+
+.fs-14{
+	font-size: 14px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-18{
+	font-size: 18px;
+}
+
+
+.ky #row3 .row3rightbox{
+	width:940px;
+	height:300px;
+	float:left;
+	margin-left:20px;
+	border-top:#23569A 3px solid;
+	background-image:linear-gradient(to top, rgba(14,46,108,0), rgba(14,46,108,1));
+}
+.ky #row3leftmapchart1{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.ky #row3leftmapchart2{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+
+.ky #row3righttable{
+	width:90%;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+

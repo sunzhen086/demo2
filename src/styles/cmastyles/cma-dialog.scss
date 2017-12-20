@@ -1,0 +1,25 @@
+.el-dialog__wrapper.cma {
+    .el-dialog {
+        border-top: 0.03rem solid rgba(34, 86, 155, 1);
+        
+        background: linear-gradient(to top, #12224e, #0e2e6a);
+        
+        .el-dialog__header {
+            background: rgba(18, 34, 78,1);
+            padding-bottom: 0.2rem;
+            
+            
+            .el-dialog__title {
+                color: #2edbff;
+            }
+        }
+        
+        .el-dialog__body {
+            padding-top: 0.15rem;
+        }
+    }
+}
+
+
+
+    

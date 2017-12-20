@@ -1,0 +1,58 @@
+.content {
+    height: 1.04rem;
+    margin-top: 0.18rem;
+}
+
+.fa-arrow-up {
+    color: $green;
+}
+
+.fa-arrow-down {
+    color: $red;
+}
+
+.info {
+    margin-top: 0.10rem;
+    overflow: hidden;
+}
+
+.lab-left {
+    display:block;
+    float:left;
+    width:50%;
+    text-align:center;
+}
+
+.info-left {
+    display:block;
+    float:left;
+    width:50%;
+    text-align:center;
+    color:rgb(7,222,155);
+}
+
+.info-right {
+    float: right;
+    display:block;
+    width:50%;
+    text-align:center;
+}
+
+.info-right-shanxi {
+    float: right;
+    display:block;
+    width:50%;
+    text-align:center;
+    color:rgb(222,167,38);
+}
+
+.number{
+    font-size: 0.2rem;
+    .unit{
+        font-size: 0.12rem;
+        color: #2edbff;
+    }
+    .dec{
+         font-size: 0.17rem;
+    }
+}
